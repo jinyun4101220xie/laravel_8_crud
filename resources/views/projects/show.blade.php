@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title','詳細內容')
 
 @section('content')
     <div class="row">
@@ -17,25 +17,25 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Name:</strong>
+                <strong>姓名:</strong>
                 {{ $project->name }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Introduction:</strong>
+                <strong>簡介:</strong>
                 {{ $project->introduction }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Location:</strong>
+                <strong>位置:</strong>
                 {{ $project->location }}
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Cost:</strong>
+                <strong>費用:</strong>
                 {{ $project->cost }}
             </div>
         </div>

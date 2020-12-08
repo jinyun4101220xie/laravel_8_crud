@@ -1,10 +1,10 @@
 @extends('layouts.app')
-
+@section('title','專案')
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Laravel 8 CRUD </h2>
+                <h2>Laravel</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-success" href="{{ route('projects.create') }}" title="Create a project"> <i class="fas fa-plus-circle"></i>
@@ -21,11 +21,11 @@
 
     <table class="table table-bordered table-responsive-lg">
         <tr>
-            <th>No</th>
-            <th>Name</th>
-            <th>Introduction</th>
-            <th>Location</th>
-            <th>Cost</th>
+            <th>編號</th>
+            <th>姓名</th>
+            <th>簡介</th>
+            <th>位置/地址</th>
+            <th>費用</th>
             <th>Date Created</th>
             <th width="280px">Action</th>
         </tr>
